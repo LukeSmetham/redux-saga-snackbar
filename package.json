@@ -1,0 +1,47 @@
+{
+  "name": "redux-saga-snackbar",
+  "version": "0.0.1",
+  "description": "A super lightweight, un-opinionated, cross-platform snackbar component for use with redux-saga.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "del": "rimraf dist",
+    "build": "yarn del && NODE_ENV=production babel src --out-dir dist",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeSmetham/redux-saga-snackbar.git"
+  },
+  "keywords": [
+    "redux-saga",
+    "snackbar",
+    "react",
+    "react-native"
+  ],
+  "author": "Luke Smetham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukeSmetham/redux-saga-snackbar/issues"
+  },
+  "homepage": "https://github.com/LukeSmetham/redux-saga-snackbar#readme",
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.2.2",
+    "@babel/plugin-transform-runtime": "7.2.0",
+    "@babel/preset-env": "7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-helper-evaluate-path": "^0.5.0",
+    "babel-preset-minify": "^0.5.0",
+    "redux-saga": "^1.0.1",
+    "rimraf": "2.6.3"
+  },
+  "peerDependencies": {
+    "redux-saga": "^1.0.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.2.0"
+  }
+}
