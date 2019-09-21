@@ -1,6 +1,6 @@
 {
   "name": "redux-saga-snackbar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A super lightweight, un-opinionated, cross-platform snackbar component for use with redux-saga.",
   "main": "dist/index.js",
   "files": [
@@ -28,22 +28,21 @@
   },
   "homepage": "https://github.com/LukeSmetham/redux-saga-snackbar#readme",
   "devDependencies": {
-    "@babel/cli": "7.2.3",
-    "@babel/core": "7.2.2",
-    "@babel/plugin-transform-runtime": "7.2.0",
-    "@babel/preset-env": "7.2.3",
+    "@babel/cli": "7.6.0",
+    "@babel/core": "7.6.0",
+    "@babel/plugin-transform-runtime": "7.6.0",
+    "@babel/preset-env": "7.6.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-helper-evaluate-path": "^0.5.0",
-    "babel-preset-minify": "^0.5.0",
-    "rimraf": "2.6.3"
+    "babel-preset-minify": "^0.5.1",
+    "rimraf": "3.0.0"
   },
   "peerDependencies": {
-    "redux-saga": "^1.0.1",
-    "reselect": "^4.0.0",
+    "react-redux": "^7.1.1",
     "redux": "^4.0.4",
-    "react-redux": "^5.0.7"
+    "redux-saga": "^1.1.1"
   },
   "dependencies": {
-    "@babel/runtime": "7.2.0"
+    "@babel/runtime": "7.6.0"
   }
 }
