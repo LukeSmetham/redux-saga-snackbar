@@ -1,6 +1,6 @@
 {
   "name": "redux-saga-snackbar",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "description": "A super lightweight, un-opinionated, cross-platform snackbar component for use with redux-saga.",
   "main": "dist/index.js",
   "files": [
